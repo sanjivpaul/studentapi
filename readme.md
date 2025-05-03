@@ -21,3 +21,11 @@ go.mod
 ```bash
 go run cmd/studentapi/main.go
 ```
+
+## Start the server
+
+```bash
+go run cmd/studentapi/main.go -config config/local.yaml
+```
+
+Note: If we dont pass the config flag then we get error `-config config/local.yaml`
