@@ -24,8 +24,8 @@ go.work.sum
 # env file
 .env
 
-# ignore storage
-storage
+# ignore storage of root dir
+/storage
 
 # igonre config
 /config
